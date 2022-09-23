@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4332B4C2-865B-4749-94A1-105A895637A8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>İngilizceKelimeÖgren</RootNamespace>
+    <AssemblyName>İngilizceKelimeÖgren</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>821AF37CBFD6DA4E3F0239E1B29A9C879F105102</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>İngilizceKelimeÖgren_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Nevron.Presentation, Version=22.4.12.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc" />
+    <Reference Include="Nevron.System, Version=22.4.12.12, Culture=neutral, PublicKeyToken=6a987feae5e496fd" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anasayfa.Designer.cs">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KelimeBulmaTürkce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KelimeBulmaTürkce.Designer.cs">
+      <DependentUpon>KelimeBulmaTürkce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel_Ayarlar.cs" />
+    <Compile Include="Zamanakarsi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zamanakarsi.Designer.cs">
+      <DependentUpon>Zamanakarsi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KelimeBulmaİngilizce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KelimeBulmaİngilizce.Designer.cs">
+      <DependentUpon>KelimeBulmaİngilizce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormManager.cs" />
+    <Compile Include="ZamanaKarsiTürkce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZamanaKarsiTürkce.Designer.cs">
+      <DependentUpon>ZamanaKarsiTürkce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ögrencidetay.cs" />
+    <Compile Include="kayıol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kayıol.Designer.cs">
+      <DependentUpon>kayıol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KelimeEkleTurkce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KelimeEkleTurkce.Designer.cs">
+      <DependentUpon>KelimeEkleTurkce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KelimeGüncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KelimeGüncelleme.Designer.cs">
+      <DependentUpon>KelimeGüncelleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ÖgrendigimKelimeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ÖgrendigimKelimeler.Designer.cs">
+      <DependentUpon>ÖgrendigimKelimeler.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Anasayfa.resx">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KelimeBulmaTürkce.resx">
+      <DependentUpon>KelimeBulmaTürkce.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zamanakarsi.resx">
+      <DependentUpon>Zamanakarsi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KelimeBulmaİngilizce.resx">
+      <DependentUpon>KelimeBulmaİngilizce.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kayıol.resx">
+      <DependentUpon>kayıol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KelimeEkleTurkce.resx">
+      <DependentUpon>KelimeEkleTurkce.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KelimeGüncelleme.resx">
+      <DependentUpon>KelimeGüncelleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ZamanaKarsiTürkce.resx">
+      <DependentUpon>ZamanaKarsiTürkce.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ÖgrendigimKelimeler.resx">
+      <DependentUpon>ÖgrendigimKelimeler.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="İngilizceKelimeÖgren_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dbSozluk.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\icons8-close-16 %282%29.png" />
+    <None Include="Resources\icons8-close-16.png" />
+    <None Include="Resources\icons8-close-16 %281%29.png" />
+    <None Include="Resources\close %282%29.png" />
+    <None Include="Resources\close %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
