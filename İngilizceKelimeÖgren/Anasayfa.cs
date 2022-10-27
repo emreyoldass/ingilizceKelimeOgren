@@ -111,5 +111,10 @@ namespace İngilizceKelimeÖgren
         {
             Application.Exit();
         }
+
+        private void Anasayfa_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

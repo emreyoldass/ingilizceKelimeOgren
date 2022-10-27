@@ -187,6 +187,7 @@ namespace İngilizceKelimeÖgren
             this.Name = "Anasayfa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Anasayfa";
+            this.Load += new System.EventHandler(this.Anasayfa_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Anasayfa_Paint);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
