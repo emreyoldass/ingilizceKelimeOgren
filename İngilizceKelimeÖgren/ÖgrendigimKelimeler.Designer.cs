@@ -33,8 +33,8 @@ namespace İngilizceKelimeÖgren
             this.data = new System.Windows.Forms.DataGridView();
             this.lbl_adSoyad = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.btn_cikis = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.data)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -82,20 +82,6 @@ namespace İngilizceKelimeÖgren
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(308, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "İngilizce Kelime Ögren- Öğrenilen Kelimeler";
-            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
-            this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
-            this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
-            // 
             // btn_cikis
             // 
             this.btn_cikis.BackColor = System.Drawing.Color.Transparent;
@@ -111,6 +97,20 @@ namespace İngilizceKelimeÖgren
             this.btn_cikis.Click += new System.EventHandler(this.btn_cikis_Click);
             this.btn_cikis.MouseEnter += new System.EventHandler(this.btn_cikis_MouseEnter);
             this.btn_cikis.MouseLeave += new System.EventHandler(this.btn_cikis_MouseLeave);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(308, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "İngilizce Kelime Ögren- Öğrenilen Kelimeler";
+            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
+            this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
             // 
             // ÖgrendigimKelimeler
             // 

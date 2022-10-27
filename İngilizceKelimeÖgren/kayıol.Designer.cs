@@ -172,9 +172,9 @@ namespace İngilizceKelimeÖgren
             this.label6.ForeColor = System.Drawing.Color.Black;
             this.label6.Location = new System.Drawing.Point(12, 10);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(238, 20);
+            this.label6.Size = new System.Drawing.Size(229, 20);
             this.label6.TabIndex = 1;
-            this.label6.Text = "İngilizce Kelime Öğren - Anasayfa";
+            this.label6.Text = "İngilizce Kelime Öğren - Kayıt Ol";
             this.label6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.label6.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             this.label6.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);

@@ -38,7 +38,6 @@ namespace İngilizceKelimeÖgren
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.btn_cikis = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -155,22 +154,12 @@ namespace İngilizceKelimeÖgren
             this.btn_cikis.MouseEnter += new System.EventHandler(this.btn_cikis_MouseEnter);
             this.btn_cikis.MouseLeave += new System.EventHandler(this.btn_cikis_MouseLeave);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(318, 310);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 20);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "label4";
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(393, 348);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_kayıtol);
             this.Controls.Add(this.txt_sifre);
@@ -204,6 +193,5 @@ namespace İngilizceKelimeÖgren
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btn_cikis;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
     }
 }

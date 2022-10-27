@@ -37,7 +37,7 @@ namespace İngilizceKelimeÖgren
             da.Fill(ds);
             data.DataSource = ds.Tables[0];
             baglanti.Close();
-            lbl_adSoyad.Text = Login.ad + " " + Login.soyad;
+            lbl_adSoyad.Text = "İsim: "+ Login.ad + " " + "\nSoyisim: " + Login.soyad;
 
         }
         void gridayar()
